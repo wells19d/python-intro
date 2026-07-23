@@ -41,6 +41,12 @@ for star in stars:
     print(star)
     
 # STRETCH: enumerate the array of stars
+
+# Similar to JavaScript:
+# for (let i = 0; i < stars.length; i++) {
+#     console.log(i, stars[i]);
+# }
+
 for index, value in enumerate(stars):
     print('Star ' + str(index) + ': ' + value)
     
