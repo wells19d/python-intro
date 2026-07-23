@@ -1,0 +1,11 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.py$",
+        "cmd": "/opt/homebrew/bin/python3 \"${file}\"",
+        "autoShowOutputPanel": "always"
+      }
+    ]
+  }
+}
